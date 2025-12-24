@@ -448,75 +448,74 @@ export default function Home() {
           color: #777;
         }
 
-        @media (max-width: 768px) {
-          @media (max-width: 768px) {
-  /* GLOBAL PADDING */
-  .hero,
-  .products,
-  .about {
-    padding: 3rem 1.5rem;
-  }
+       @media (max-width: 768px) {
+    /* GLOBAL */
+    .hero,
+    .products,
+    .about {
+      padding: 3rem 1.5rem;
+    }
 
-  /* NAVBAR */
-  .nav-links {
-    gap: 1.5rem;
-    font-size: 0.95rem;
-  }
+    /* NAVBAR */
+    .nav-links {
+      gap: 1.5rem;
+      font-size: 0.95rem;
+    }
 
-  /* HERO */
-  .hero {
-    grid-template-columns: 1fr;
-    text-align: left;
-  }
+    /* HERO */
+    .hero {
+      grid-template-columns: 1fr;
+      text-align: left;
+    }
 
-  .hero h1 {
-    font-size: 2.3rem;
-    line-height: 1.25;
-  }
+    .hero h1 {
+      font-size: 2.3rem;
+      line-height: 1.25;
+    }
 
-  .hero p {
-    font-size: 0.95rem;
-  }
+    .hero p {
+      font-size: 0.95rem;
+    }
 
-  .hero-image {
-    margin-top: 3rem;
-  }
+    .hero-image {
+      margin-top: 3rem;
+    }
 
-  .image {
-    width: 260px;
-    height: 360px;
-  }
+    .image {
+      width: 260px;
+      height: 360px;
+    }
 
-  /* PRODUCTS */
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
+    /* PRODUCTS */
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
 
-  .card {
-    width: 100%;
-    max-width: 340px;
-  }
+    .card {
+      width: 100%;
+      max-width: 340px;
+    }
 
-  /* ABOUT */
-  .about {
-    grid-template-columns: 1fr;
-  }
+    /* ABOUT */
+    .about {
+      grid-template-columns: 1fr;
+    }
 
-  .about-image {
-    display: flex;
-    justify-content: center;
-  }
+    .about-image {
+      display: flex;
+      justify-content: center;
+    }
 
-  .about-image img {
-    width: 90%;
-    margin-left: 0;
-  }
+    .about-image img {
+      width: 90%;
+      margin-left: 0;
+    }
 
-  .about-title {
-    font-size: 2.2rem;
+    .about-title {
+      font-size: 2.2rem;
+    }
   }
-}
 
       `}</style>
     </>
